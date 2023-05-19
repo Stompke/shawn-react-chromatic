@@ -3,7 +3,13 @@ name: 'Chromatic'
 
 # Event for the workflow
 on:
+  push:
+    branches:
+      - master
   pull_request_target:
+    types:
+      - opened
+      - synchronize
 
 # List of jobs
 jobs:
