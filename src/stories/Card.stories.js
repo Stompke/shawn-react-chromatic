@@ -15,3 +15,28 @@ export const Primary = {
   },
 };
 
+export const Second = {
+  args: {
+    primary: true,
+    label: 'Button',
+  },
+};
+export const Third = {
+  args: {
+    primary: true,
+    label: 'Button',
+  },
+};
+export const Fourth = {
+  args: {
+    primary: true,
+    label: 'Button',
+  },
+};
+export const Fifth = {
+  args: {
+    primary: true,
+    label: 'Button',
+  },
+};
+
