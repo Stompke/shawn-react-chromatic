@@ -8,7 +8,7 @@ export const Card = () => {
     return(
         <div style={{fontFamily: 'arial', background: 'yellow', borderRadius: 5, border: 'solid grey 2px', padding: 50, justifyContent: 'space-around', alignItems: 'center', display: 'flex'}}>
             less text
-            <button >Here is a button BROKEN moresss</button>
+            <button >Here is a button BROKEN moresssdddd</button>
             <img alt='nothing' src="https://cdn.aa.com/aileron/icons/navigation/chevron-down.svg"></img>
             <img alt='nothing' src="https://cdn.aa.com/aileron/icons/navigation/chevron-down.svg"></img>
             <img alt='nothing' src="https://cdn.aa.com/aileron/icons/navigation/chevron-down.svg"></img>
