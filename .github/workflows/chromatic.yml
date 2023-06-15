@@ -32,3 +32,5 @@ jobs:
         with:
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          # Apply the onlyChanged parameter only when it is on the next or main branch
+          onlyChanged: ${{ github.ref == 'refs/heads/next' || github.ref == 'refs/heads/master' }}
